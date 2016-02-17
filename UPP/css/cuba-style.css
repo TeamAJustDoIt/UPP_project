@@ -69,6 +69,7 @@ img {
 	list-style-type: none;
 	height: 40px;
 	padding: 0;
+	margin: 0;
 }
 
 .menu li{
@@ -104,8 +105,22 @@ img {
 
 .reg_block a{
 	color:#000;
+	padding-left: 3%;
+}
+
+.reg_block span{
+	font-size: 1em;
 }
 
 .reg_block a:hover{
 	color: #FF4000;
+
+}
+
+form input{
+	border-radius: 5px;
+}
+
+button{
+	border-radius: 5px;
 }

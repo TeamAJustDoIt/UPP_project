@@ -1,0 +1,111 @@
+header, div, body, footer{
+	width: 100%;
+	margin: 0;
+}
+
+.wrap{
+	position: relative;
+	max-width: 1240px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media \0screen {
+  img { 
+  	width: auto; 
+  }
+}
+
+.title{ 
+	margin:0;
+	padding: 0;
+	min-height:151px;
+}
+
+.enter{
+	float: right;
+	min-width: 50%;
+	padding-top: 20px;
+	text-align: right;
+	padding-right:5%;
+	min-height: 100%;
+}
+
+.block_logo{
+	padding-top: 20px;
+	position:absolute;
+	max-width: 20%;
+	max-height: 111px;
+	float: left;
+	padding-left:5%;
+}
+
+.logo{
+	width: 248px;
+	height: 111px;
+}
+
+.log_reg{
+	font-size: 20px;
+}
+
+.main_block{
+	background-color: #f2f2f2;
+	height: 500px;
+}
+
+.menu ul{
+	list-style-type: none;
+	height: 40px;
+	padding: 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 3%;
+	font-size: 25px;
+	line-height: 30px;
+	border-right: 2px solid;
+	border-color: #f2f2f2;
+	padding-right: 3%;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:#000;
+}
+
+.menu li a:hover{
+	color: #FF4000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 1px 3px 1px 3px;
+}
+
+.menu{
+	padding-top: 14px;
+}
+
+.reg_block{
+	padding-top:5px;
+}
+
+.reg_block a{
+	color:#000;
+}
+
+.reg_block a:hover{
+	color: #FF4000;
+}

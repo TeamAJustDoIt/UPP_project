@@ -56,9 +56,7 @@ img {
 	height: 111px;
 }
 
-.log_reg{
-	font-size: 20px;
-}
+
 
 .main_block{
 	background-color: #f2f2f2;
@@ -109,7 +107,8 @@ img {
 }
 
 .reg_block span{
-	font-size: 1em;
+	font-size: 0.75em;
+
 }
 
 .reg_block a:hover{
